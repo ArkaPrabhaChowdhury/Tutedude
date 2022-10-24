@@ -1,0 +1,786 @@
+@media screen and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        border: 0;
+    }
+
+    .main {
+        margin: 0 auto;
+        padding: 4vw 8vw 2vw 8vw;
+    }
+
+    html,
+    body {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .nav {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .box,
+    .box-long {
+        font-size: 1.4vw;
+    }
+
+    .learn {
+        font-size: 3rem;
+    }
+
+    .grid-learn {
+        display: grid;
+        grid-template-columns: 5% 95%;
+        grid-column-gap: 30vw;
+    }
+
+    .grid {
+        grid-column-gap: 3vw;
+        padding: 0 2vw;
+    }
+
+    .grid-2 {
+        margin-left: 10vw;
+    }
+
+    .columns {
+        margin-left: -13vw;
+    }
+
+    .flex-price {
+        margin-left: -8vw;
+    }
+
+    .flex-benefits {
+        margin-left: -8vw;
+    }
+
+    .justflex {
+        width: 100vw;
+        margin-left: -5vw;
+        padding: 0 2vw;
+    }
+
+    .review-content {
+        width: 30vw;
+    }
+
+    .flex-footer {
+        width: 95vw
+    }
+
+    .side {
+        padding: 1.5vw 0;
+    }
+
+    .reason-head {
+        width: 20vw;
+        font-size: 1.8rem;
+    }
+
+    .why-2 {
+        width: 3.5vw;
+
+    }
+
+    .reason-p {
+        width: 30vw;
+        padding-top: 3vw;
+        font-size: 1.5vw;
+    }
+
+    .heading {
+        font-size: 2vw;
+    }
+
+    .tagline {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .flex-price {
+        width: 80vw;
+    }
+
+    .columns {
+        width: 65vw;
+    }
+
+    .curriculum {
+        width: 32vw;
+
+    }
+
+    .curriculum p {
+        font-size: 1rem;
+    }
+
+    .big {
+        width: 35vw;
+    }
+
+    .big p {
+        font-size: 1rem;
+    }
+
+    .flex-benefits {
+        margin-left: -15vw;
+        padding-right: 10vw;
+    }
+
+    .side {
+        padding-top: 5vw;
+        width: 10vw;
+    }
+
+    .reason-head {
+        width: 25vw;
+        font-size: 1.8rem;
+        padding-bottom: 4vw;
+    }
+
+    .grid-2 {
+
+        grid-column-gap: 15vw;
+    }
+
+    .review-name {
+        font-size: 1rem;
+    }
+
+    .flex-benefits {
+        width: 83vw;
+    }
+
+    .benefits {
+        height: auto;
+        width: 40vw;
+        padding-bottom: 5vh;
+    }
+
+    .benefits-2 {
+        height: auto;
+        width: 39vw;
+        padding-bottom: 5vh;
+    }
+
+    .benefits-content {
+        width: 38vw;
+        height: auto;
+    }
+
+    .benefits-tagline,
+    .benefits-tagline-2 {
+        font-size: 0.8rem;
+    }
+
+    .box-long {
+        width: 20vw;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:917px) {
+    .nav img {
+        width: 14vw;
+        margin-left: -2vw;
+    }
+
+    .nav li {
+        font-size: 0.8rem;
+    }
+
+    .login {
+        width: 12vw;
+    }
+
+    .signup {
+        width: 12vw;
+    }
+
+    .learn {
+        font-size: 2.5rem;
+    }
+
+    .box-long {
+        width: 20vw;
+        font-size: 1.5vw;
+    }
+
+    .why {
+        padding-right: 3.5vw;
+    }
+
+    .why-2 {
+        padding-right: 3.5vw;
+    }
+
+    .heading {
+        font-size: 2vw;
+    }
+
+    .tagline {
+        font-size: 1.5vw;
+    }
+
+    .reason-head {
+        font-size: 3vw;
+        width: 22vw;
+        margin-top: 4vw;
+    }
+
+    .reason-p {
+        font-size: 1.5vw;
+    }
+
+    .columns {
+        width: 60vw;
+    }
+
+    .curriculum p {
+        font-size: 1.8vw;
+    }
+
+    .price-tags {
+        height: 228px;
+        width: 300px;
+        border-radius: 22px;
+        background-image: url(price.png);
+    }
+
+    .price-head {
+        font-size: 2.3vw;
+        padding-left: 8vw;
+    }
+
+    #four {
+        font-size: 8vw;
+        margin-top: -2.8vw;
+        margin-left: -2vw;
+        padding-right: 2vw;
+    }
+
+    #twenty-three {
+        font-size: 7.5vw;
+        margin-top: -2.8vw;
+    }
+
+    .know {
+        width: 20vw;
+    }
+
+    .know-2 {
+        width: 20vw;
+    }
+
+    #amount {
+        margin-left: -2vw;
+    }
+
+    #number {
+        font-size: 3vw;
+        margin-left: -2vw;
+    }
+
+    .cancel {
+        margin-left: 8vw;
+    }
+
+    .cancel-2 {
+        margin-left: 5vw;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+    .review-name {
+        margin-left: -6vw;
+    }
+
+    #left {
+        margin-left: 2vw;
+    }
+
+    .flip-2 {
+        margin-left: -4vw;
+    }
+
+    .query {
+        margin-left: 15vw;
+    }
+
+    #address {
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width:780px) {
+
+    .why-2 {
+        width: 6.5vw;
+    }
+
+    .flex-price {
+        display: block;
+
+    }
+
+    .price-tags {
+        padding-bottom: 1em;
+        width: 330px;
+        border-radius: 12%;
+        margin-left: 2.3m;
+    }
+
+    .flex-tags {
+        display: flex;
+        justify-content: space-around;
+        width: 31em;
+    }
+
+    .price-head {
+        font-size: 1.5rem;
+    }
+
+    .circle-price {
+
+        margin-left: -10em;
+    }
+
+    #four {
+        font-size: 80px;
+        padding-right: 13px;
+        margin-top: -30px;
+    }
+
+    #twenty-three {
+        font-size: 75px;
+    }
+
+    #amount {
+        margin-left: -10px;
+    }
+
+    #number {
+        font-size: 32px;
+        margin-left: -10px;
+    }
+
+    .cancel {
+        margin-left: 5.5em;
+    }
+
+    .cancel-2 {
+        margin-left: 4.3em;
+    }
+
+    .columns {
+        margin-left: -20vw;
+    }
+
+    .flex-benefits {
+        margin-left: -20vw;
+    }
+
+    .review-circle {
+        margin-left: 10vw;
+    }
+
+    .review-name {
+        margin-left: -8vw;
+    }
+
+}
+
+@media only screen and (max-width:677px) {
+    .nav img {
+        width: 20vw;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .login {
+        width: 20vw;
+    }
+
+    .signup {
+        width: 20vw;
+    }
+
+    .nav i {
+        display: block;
+        width: 1em;
+        height: 1em;
+        color: rgba(128, 0, 128, 1);
+    }
+
+    .iit {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .grid-learn {
+        display: block;
+    }
+
+    .diagram {
+        width: 90vw;
+        margin-left: -2em;
+        margin-bottom: 2em;
+    }
+
+    .box {
+        width: 10vw;
+        font-size: 1rem;
+    }
+
+    .box-long {
+        font-size: 0.8rem;
+    }
+
+    .grid {
+        grid-template-columns: auto auto;
+        width: 40vw;
+        grid-column-gap: -20em;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .tagline {
+        font-size: 0.6rem;
+    }
+
+    .newgrid {
+        grid-template-columns: auto auto;
+        width: 85vw;
+        padding-left: 6vw;
+    }
+
+    .grid-2 {
+        grid-template-columns: auto;
+        padding-left: 15vw;
+    }
+
+    .side {
+        padding-bottom: 15vw;
+    }
+
+    .reason-head {
+        font-size: 3.5vw;
+        width: 30vw;
+        margin-bottom: 2vw;
+    }
+
+    .reason-p {
+        font-size: 2.4vw;
+        width: 35vw;
+    }
+
+    .columns {
+        display: block;
+        margin-left: -13vw;
+        width: 100vw;
+    }
+
+    .column-2 {
+        margin-top: 3vw;
+    }
+
+    .curriculum {
+        width: 50vw;
+    }
+
+    .curriculum p {
+        font-size: 0.8rem;
+    }
+
+    .know {
+        margin-left: -4vw;
+    }
+
+    .know-2 {
+        margin-left: -5.5vw;
+    }
+
+    .flex-benefits {
+        margin-left: -26vw;
+    }
+
+    footer {
+        height: 23em;
+    }
+
+    .flex-footer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #address-head {
+        visibility: hidden;
+    }
+
+    #address {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .columns {
+        margin-left: -25vw;
+    }
+
+    .grid-3 {
+        margin-left: 5vw;
+    }
+
+    .box {
+        width: 15vw;
+    }
+
+    .learn {
+        font-size: 8vw;
+    }
+
+    .box-long {
+        width: 25vw;
+    }
+
+    .iit {
+        margin: 2em auto;
+    }
+
+    .rupees {
+        font-weight: bold;
+        display: block;
+        padding-top: 0.4em;
+        padding-bottom: 0.5em;
+        font-size: 5vw;
+    }
+
+    #enroll {
+        display: none;
+    }
+
+    #enroll-2 {
+        display: block;
+        margin: 1em auto;
+        width: 70vw;
+    }
+
+    .why-1 {
+        padding-bottom: 5vw;
+    }
+
+    .why-2 {
+        width: 9vw;
+        padding-bottom: 5vw;
+    }
+
+    .reason-head {
+        font-size: 1.5rem;
+        width: 50vw;
+        margin-top: -2vw;
+        padding-bottom: 2em;
+    }
+
+    .side {
+        padding-bottom: 7em;
+    }
+
+    .reason-p {
+        font-size: 0.8rem;
+    }
+
+    .flex-price {
+        margin-left: -20vw;
+    }
+
+    .flex-benefits {
+        display: block;
+        margin-left: -15vw;
+    }
+
+    .benefits {
+        width: 60vw;
+    }
+
+    .benefits-2 {
+        width: 60vw;
+        margin-top: -2em;
+    }
+
+    .benefits-content {
+        width: 50vw;
+    }
+
+    .curriculum {
+        width: 50vw;
+    }
+
+    .know {
+        width: 40vw;
+        margin-left: -12vw;
+    }
+
+    .know-2 {
+        width: 40vw;
+        margin-left: -14vw;
+    }
+    .review-quoted{
+        display: none;
+        
+    }
+    .review-quoted-2{
+        display: inline-block;
+        width: 100vw;
+        margin-left: 7em;
+        padding-top: 3em;
+    }
+    .quotes{
+        margin-right: 20em;
+    }
+    .justflex{
+        justify-content: space-between;
+        width: 80vw;
+    }
+    .review-circle{
+        width:20vw;
+        height: 20vw;
+        margin-left: 20vw;
+    }
+    .review-circle-small{
+        width:12vw;
+        height: 12vw;
+        margin-left: -27vw;
+    }
+    .review-img{
+        width:19vw;
+        height:19vw;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+    .review-name{
+        margin-top: 5em;
+    }
+    .review-content{
+        width: 40vw;
+    }
+    .flip-2{
+        margin-left: 30vw;
+    }
+    .query{
+        width: 60vw;
+    }
+    footer{
+        height: 25em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .grid{
+        width: 10vw;
+    }
+    .newflex{
+        width: 40vw;
+    }
+    .keys{
+        width:35vw;
+    }
+    .keys p{
+        width: 14vw;
+        font-size: 0.9rem;
+    }
+    .why-2{
+        width: 14vw;
+    }
+    .columns{
+        margin-left: -40vw;
+    }
+    .curriculum{
+        width: 60vw;
+    }
+    .big{
+        height: auto;
+    }
+    .headings{
+        font-size: 1.5em;
+    }
+    .price-tags{
+        width:18em;
+        margin-left: -20vw;
+    }
+    #four{
+        font-size: 4rem;
+        margin-top: -17px;
+        margin-left: -20px;
+    }
+    #twenty-three{
+        font-size: 3rem;
+        margin-top: -1vw;
+    }
+    .side-content{
+        margin-left: -20px;
+    }
+    .side-content-2{
+        
+        margin-left: -30px;
+    }
+    #amount{
+        font-size: 1.3rem;
+    }
+    #number{
+        font-size: 1.6rem;
+    }
+    .flex-tags{
+        width: 23em;
+        margin-left: 10vw;
+    }
+    .cancel{
+        margin-left: 15vw;
+    }
+    .cancel-2{
+        margin-left: 15vw;
+    } 
+    .review-quoted-2{
+        margin-left: 3em;
+    }
+    .query-text{
+        font-size: 0.8rem;
+    }
+
+
+
+
+
+
+
+
+    .flex-benefits{
+        margin-left: -7em;
+    }
+    footer {
+        height: 28em;
+    }
+}
